@@ -70,6 +70,7 @@ fn main() {
         _ => panic!("You must provide an accepted commands.")
     };
 
+    // todo examples
     todo_list.add_to_list("Say Good Morning to you.".to_string());
     todo_list.add_to_list("Get the Tom's MacBook Air at the shop.".to_string());
     todo_list.mark_done(1);
